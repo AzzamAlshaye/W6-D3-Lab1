@@ -1,6 +1,6 @@
 export default function PromoBanner() {
   return (
-    <div className="mt-8 border rounded-lg overflow-hidden grid grid-cols-1 md:grid-cols-3">
+    <div className="mt-8 mb-6 bg-[#f3f0f3] rounded-lg overflow-hidden  grid grid-cols-1 md:grid-cols-3 w-3/3 mx-auto">
       <div className="p-8 md:col-span-2 flex flex-col justify-center">
         <h3 className="text-2xl font-bold">
           Bose Bluetooth Wireless Headphones
@@ -17,11 +17,11 @@ export default function PromoBanner() {
           Shop Now
         </button>
       </div>
-      <div className="h-48 md:h-auto overflow-hidden">
+      <div className="h-48 md:h-auto ">
         <img
           src="https://m.media-amazon.com/images/I/51f7KKP25PL._AC_SL1000_.jpg"
           alt="Headphones"
-          className="w-full h-full object-cover"
+          className="w-full h-60 object-contain "
         />
       </div>
     </div>
