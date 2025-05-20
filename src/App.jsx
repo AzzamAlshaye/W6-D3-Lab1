@@ -1,7 +1,7 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import Categories from "./components/Categories";
-import PromoBanner from "./components/PromoBanner";
+import Navbar from "./assets/components/Navbar";
+import HeroSection from "./assets/components/HeroSection";
+import Categories from "./assets/components/Categories";
+import PromoBanner from "./assets/components/PromoBanner";
 
 function App() {
   return (
